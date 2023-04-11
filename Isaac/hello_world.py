@@ -1,7 +1,1 @@
-print("""hello Sensei Jason Millenium Rojas 
-aka JMR 
-aka Xana60027 
-aka Zuko1 
-aka JMoney 
-aka Aravil
-""")
+print("hey jason it's isaac it's isaac im trying to code rn and i really appreciate you doing this. you are the best")
