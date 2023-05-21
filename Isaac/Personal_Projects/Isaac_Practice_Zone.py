@@ -18,6 +18,3 @@ print(not 5==1)
 print(7==7 and 8)
 print(13%10)
 print(ben)
-#git add file_name or -A
-#git commit -m string message
-#git push origin branch name\
