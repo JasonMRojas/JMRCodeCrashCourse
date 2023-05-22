@@ -10,43 +10,26 @@ print("Reverse List Hw")
 #Use at least one loop to iterate over the list.
 #Use at least one list method to manipulate the list.
 #Use at least one string method to convert the input string to a list of numbers
+user_input = input("please enter a series of numbers separated by spaces: ")
+cleaned_user_input = user_input.strip()
+user_input_list = cleaned_user_input.split()
 
+reversed_list = []
 
-#input your list
-#input_list= [1, 2, 3, 4, 5, 6]
-user_input= input("please enter a series of numbers separated by spaces: ").split()
-empty_bucket=[]
+length_of_list = len(user_input_list)
 
-x = len(user_input)
-
-for i in range(0, x):
+for i in range(length_of_list):
     print(i)
-    empty_bucket.append(user_input[x - 1 - i])
+    reversed_list.append(user_input_list[length_of_list - 1 - i])
+
+for int in user_input:
+    if user_input == ' ':
+        print("please enter a series of numbers")
+
+    else:
+        continue
 
 
-
-#input_list[3]
-
-#empty_bucket.append(input_list[4])
-#
-#empty_bucket.append(input_list[3])
-#
-#empty_bucket.append(input_list[2])
-#
-#empty_bucket.append(input_list[1])
-#
-##empty_bucket.append(input_list[0])
-
-print(empty_bucket)
-#for i in range(len(user_input)):
-
-    
-
-    #print(user_input[i])
+print(reversed_list)
 
 
-
-
-
-
-#print(user_input)
