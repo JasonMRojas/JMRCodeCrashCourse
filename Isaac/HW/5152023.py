@@ -13,15 +13,15 @@ print("Reverse List Hw")
 
 
 #input your list
-input_list= [1, 2, 3, 4, 5, 6]
-
+#input_list= [1, 2, 3, 4, 5, 6]
+user_input= input("please enter a series of numbers separated by spaces: ").split()
 empty_bucket=[]
 
-x = len(input_list)
+x = len(user_input)
 
 for i in range(0, x):
     print(i)
-    empty_bucket.append(input_list[x - 1 - i])
+    empty_bucket.append(user_input[x - 1 - i])
 
 
 
